@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Cherry+Swash:700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/glowing.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <title>Trivia Game</title>
+</head>
+<body>
+<div class="container">
+  <div class="scoreElements">
+   <div id="showWinsCnt"><span id="wins"></span></div>
+   <div id="showLoseCnt"><span id="wrongs"></span></div>
+   <div id="showMissCnt"><span id="misses"></span></div>
+  </div>
+  <div class='playElements'>
+    <div class="showTimer"><span id="timer"></span></div>
+    <div class="showQuestion glowing darkblue"><span id="question"></span></div>
+    <ul class="showAnswers glowing darkblue">
+    <li class="answers glowing cyan" id="answer0"><a href="#"></a></li>
+    <li class="answers glowing darkblue" id="answer1"><a href="#"></a></li>
+    <li class="answers glowing indigo"  id=" answer2"><a href="#"></a></li>
+    <li class="answers glowing purple" id=" answer3"><a href="#"></a></li>
+    </ul>
+    <span class="tmyk clearfix">
+      <div class="extra glowing darkblue"></div>
+      <img class="image">
+    </span>
+  </div>
+  <div class="bgButton">
+  <button class="glowing cyan" id="newGame" onclick="initGame()">Play a Game?</button>
+  </div>
+  <!-- <button id="temp1" onclick="newQuestion()">Next Question?</button> -->
+</div>
+  
+<!-- bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
+
+  
+</body>
+</html>

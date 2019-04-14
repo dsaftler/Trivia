@@ -1,0 +1,25 @@
+ul li a {
+  color: #ead6b7;
+  display: block;
+  text-decoration: circle;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  display: block;
+}
+
+ul li a:hover {
+  color: #332419;
+  display: block;
+  text-decoration: disc;
+}
+
+li:hover {
+  background-color: #ead6b7;
+}
+

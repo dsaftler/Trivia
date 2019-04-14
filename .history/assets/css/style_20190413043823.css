@@ -1,0 +1,13 @@
+.showTimer
+.showQuestion
+.showAnswer
+.showWinsCnt
+.showLoseCnt
+.answers:hover{
+  background-color: blue;
+}
+.image {
+  height: 300px;
+}
+}
+

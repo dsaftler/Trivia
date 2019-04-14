@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding:0;
+  background-color: #02315c;
+  
+  margin: auto;
+  align-content: center;
+  font-family: 'Baumans', cursive;
+  color:white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.container{
+   height: 100%; 
+  margin: auto;
+  background-image: url("../images/hubble.jpg");
+  max-width: 1536px;
+}
+button{
+  width:350px;
+  margin: auto;
+  color:white;
+  font-size: 30px;
+  padding: 10px;
+  background-color:black;
+  border-color: #8fc7bc;
+  border-style: groove;
+  border-width: 10px;
+  border-radius: 150px 20px;
+}
+.scoreElements{
+align-content: center;
+margin: auto;
+width: 10%;
+padding-top: 50px;
+}
+#wins{
+  text-align:center;
+}
+.bgButton{
+  align-content:center;
+  margin:auto;
+  width:30%;
+}
+.playElements{
+  align-content: center;
+  margin: auto;
+  width: 75%;
+  padding-top:70px;
+}
+
+ul li a {
+  color: #8fc7bc; 
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+  width:50%
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  display: block;
+}
+
+ul li a:hover {
+  color: #332419;
+  display: block;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color:#8fc7bc;
+}
+
+.playElements {
+  align-content: center;
+  margin: auto;
+  width: 75%;
+  padding-top: 70px;
+}
+#Timer {
+  font-size: 80px;
+  font-weight: bolder;
+}
+.tmyk {
+columns: count 2px;
+}
+.extra{
+  clear: both;
+  width:25%
+}
+.image{
+  clear: both;
+  float: right;
+  max-width: 60%;
+}
+

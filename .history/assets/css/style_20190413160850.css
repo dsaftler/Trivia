@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding:0;
+  background-color: #02315c;
+  
+  margin: auto;
+  align-content: center;
+  font-family: 'Baumans', cursive;
+  color:white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.container{
+   height: 100%; 
+  margin: 90px;
+  background-image: url("../images/hubble.jpg");
+  max-width: 1536px;
+}
+button{
+  width:25%;
+  margin: auto;
+  color:white;
+  padding: 10px;
+  background-color:black;
+  border-color: #8fc7bc;
+  border-style: outset;
+  border-width: 10px;
+   border-radius: 150px 20px;
+}
+.scoreElements{
+align-content: center;
+margin: auto;
+width: 75%;
+
+}
+
+.playElements{
+  align-content: center;
+  margin: auto;
+  width: 75%;
+}
+ul li a {
+  color: #8fc7bc;
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+  width:50%
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  display: block;
+}
+
+ul li a:hover {
+  color: #332419;
+  display: block;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color:#8fc7bc;
+}
+
